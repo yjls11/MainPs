@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="genre_array">
+
+        <item>장르를 선택 해주세요</item>
+        <item>일렉트로닉</item>
+        <item>힙합</item>
+        <item>클래식</item>
+        <item>재즈</item>
+        <item>인디</item>
+        <item>앰비언트</item>
+        <item>팝</item>
+        <item>하우스</item>
+        <item>라틴</item>
+
+    </string-array>
+
+
+</resources>

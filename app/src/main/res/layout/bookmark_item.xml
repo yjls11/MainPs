@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_blue"
+    android:orientation="vertical">
+
+    <!--    <androidx.cardview.widget.CardView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="110dp"-->
+    <!--        android:backgroundTint="@android:color/background_light"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:cardCornerRadius="35dp"-->
+    <!--        app:cardElevation="10dp">-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:layout_margin="8dp"
+        android:clickable="true"
+        android:elevation="10dp"
+        android:foreground="@color/cardview_shadow_end_color"
+        android:orientation="horizontal"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+
+            <TextView
+                android:id="@+id/bm_singername"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="30dp"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/nanumgothic"
+                android:text="sokodomo"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bm_Hashtag2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="195dp"
+                android:layout_marginTop="63dp"
+                android:fontFamily="@font/nanumgothic"
+                android:text="#평화로운"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bm_Hashtag1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="63dp"
+                android:fontFamily="@font/nanumgothic"
+                android:text="#몽환적인"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/bm_musicImg"
+                android:layout_width="115dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="12dp"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:src="@drawable/sokodomo" />
+
+            <TextView
+                android:id="@+id/bm_Hashtag3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270dp"
+                android:layout_marginTop="63dp"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/nanumgothic"
+                android:text="#평화로운"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bm_musciName"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/nanumgothic"
+                android:text="회전목마"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/rankartistbtn"
+                android:layout_width="50dp"
+                android:layout_height="33dp"
+                android:layout_alignParentRight="true"
+                app:srcCompat="@drawable/backspace" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

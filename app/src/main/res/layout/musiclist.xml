@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+    <ImageView
+        android:id="@+id/Cover"
+        android:layout_width="53dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/img_1" />
+
+    <TextView
+        android:id="@+id/m_art"
+        android:layout_width="250dp"
+        android:layout_height="20dp"
+        android:fontFamily="@font/nanumgothic"
+        android:text="가수"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/Cover"
+        app:layout_constraintEnd_toStartOf="@+id/img2"
+        app:layout_constraintStart_toStartOf="@+id/m_name"
+        app:layout_constraintTop_toBottomOf="@+id/m_name"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/m_name"
+        android:layout_width="250dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/nanumgothic"
+        android:text="제목"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toEndOf="@+id/Cover"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <ImageButton
+        android:id="@+id/img2"
+        android:layout_width="31dp"
+        android:layout_height="29dp"
+        android:layout_marginEnd="56dp"
+        android:background="#00FFFFFF"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/star_1" />
+
+    <TextView
+        android:id="@+id/mu_seq"
+        android:layout_width="38dp"
+        android:layout_height="14dp"
+        android:text="TextView"
+        android:textColor="@color/colorwhite_10"
+        android:textColorHighlight="@color/colorwhite_10"
+        android:textColorHint="@color/colorwhite_10"
+        android:textColorLink="@color/colorwhite_10"
+        app:layout_constraintBottom_toBottomOf="@+id/Cover"
+        app:layout_constraintEnd_toEndOf="@+id/Cover"
+        app:layout_constraintStart_toStartOf="@+id/Cover"
+        app:layout_constraintTop_toTopOf="@+id/Cover" />
+
+    <ImageView
+        android:id="@+id/urlbtn"
+        android:layout_width="31dp"
+        android:layout_height="29dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/urls" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
